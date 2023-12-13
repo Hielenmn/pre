@@ -1,0 +1,5 @@
+// for para imprimir os números de 1 a 20, excluindo o 13, em ordem decrescente
+
+for andar in range(20, 0, -1):
+    if andar != 13:
+        print(andar)
