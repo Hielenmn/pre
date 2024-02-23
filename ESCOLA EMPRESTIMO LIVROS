@@ -1,0 +1,28 @@
+CREATE TABLE ALUNO (
+    ID INT PRIMARY KEY,
+    nome VARCHAR(255),
+    email VARCHAR(255),
+    endereco VARCHAR(255)
+ );
+ 
+CREATE TABLE EMPRESTIMO (
+  ID INT PRIMARY KEY,
+  CODIGO INT NOT NULL,
+  QUANDO DATE,
+  MATRIC_ALUNO INT NOT NULL,
+  DEVOLUCAO DATE
+  );
+  
+  insert into emprestimo (ID, codigo, quando, matric_aluno, devolucao) VALUES
+  	('01', 'JOAO', 'JOAO@GMAIL.COM', '23/02/2024', TABLE aluno id, '01/03/2024');
+    
+  	
+  
+  
+  
+ 
+
+CREATE TABLE EMPRESTIMOS (
+ 	codigo_livros VARCHAR(48)
+	codigo_empres VARCHAR(48)
+ );
